@@ -1,3 +1,27 @@
-<button>Paper</button>
-<button>Rock</button>
-<button>Scissors</button>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Game</title>
+  <!--In here goes the .css for the website. Normally goes at the top or in another folder -->
+    <style>
+      .red-button{
+        background-color:white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- In here we put the front end and .js for the website. Normally goes at the bottom or in another folder.
+        <button title='Good Job'>Hello</button> | Shows over the mouse a small message -->
+    <h1>Paper, Rock, Scissors</h1>
+    <button title='Good Job!' class="red-button" 
+    onClick="
+      alert('You selected Paper');
+    "
+    >Paper</button> 
+    <button>Rock</button>
+    <button>Scissors</button>
+    <script>
+      let userPick = "";
+    </script>
+  </body>
+</html>
